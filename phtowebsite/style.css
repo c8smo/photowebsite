@@ -16,3 +16,48 @@
 .card-body{
    padding: 10px;
 }
+
+.dropdown-content{
+    display:none;
+    background:yellow;
+    position:absolute;
+    left:0;
+    
+    color:red;
+    padding:1em;
+    border:2px solid green;
+   
+  }
+  
+  a:hover{
+    background:white;
+    
+  }
+  
+  .dropdown:hover .dropdown-content{
+    display:block;
+  }
+  
+    
+  .dropdown-next:hover .dropdown-content{
+    display:block;
+  }
+  
+    
+    .dropdown-next{
+      float:left;
+      margin-left:20px;
+    }
+    
+    
+    .dropdown{
+      float:left;
+      background:beige;
+    }
+    
+  a{
+    text-decoration:none;
+    color:purple;
+    padding:1em;
+    
+  }
