@@ -1,7 +1,12 @@
 .program-layout{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1em;
+    
+    grid-gap: 0.32em;
+}
+
+#wrapper{
+  max-width: 12000px
 }
 
 .card{
